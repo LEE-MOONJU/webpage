@@ -1,0 +1,100 @@
+/* 전체 페이지 스타일링 */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+/* 헤더 스타일링 */
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* 섹션 스타일링 */
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* 푸터 스타일링 */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* 리스트 스타일링 */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* 컨테이너 스타일링 */
+.container {
+    display: flex;
+}
+
+.sidebar {
+    flex: 1;
+    background-color: #f0f0f0;
+    padding: 20px;
+    position: sticky; /* 스크롤 시 사이드바가 제자리에 머물도록 설정 */
+    top: 0; /* 뷰포트 상단과 사이드바 상단 사이의 거리 */
+    height: 100%; /* 뷰포트 높이만큼 사이드바 높이 설정 */
+}
+
+/* 메인 콘텐츠 스타일링 */
+.content {
+    flex: 3;
+    padding: 20px;
+}
+
+/* 기본 스타일링 */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header, footer {
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+/* 강조 스타일 */
+.highlight {
+    animation: highlightSection 2s;
+}
+
+@keyframes highlightSection {
+    from { background-color: yellow; }
+    to { background-color: transparent; }
+}
